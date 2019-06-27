@@ -17,7 +17,7 @@ public class StepDefinitions {
     @Then("^the chat works$")
     public void theChatWorks() {
         System.out.println("The test worked!");
-        assertEquals(1, 4);
+        assertTrue(false);
     }
 
     @Given("a web browser is on the Google page")
