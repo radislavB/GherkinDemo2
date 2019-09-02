@@ -1,11 +1,13 @@
 package com.microfocus.adm.octane.gherkinautomation;
 
+import static org.junit.Assert.*;
 import cucumber.api.java.en.*;
 
 public class StepDefinitions {
     @Given("^the Google Chrome browser is open$")
     public void theGoogleChromeBrowserIsOpen() {
         System.out.println("The browser is open!");
+        assertTrue(true);
     }
 
     @When("^opening the live chat$")
@@ -134,6 +136,6 @@ public class StepDefinitions {
 
     @Then("t")
     public void t() {
-
+        assertTrue(true);
     }
 }
