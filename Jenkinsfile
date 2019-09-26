@@ -1,6 +1,6 @@
 pipeline {
 
-    agent any
+    agent 'slave1'
     stages {
 
         stage('unit-test') {
