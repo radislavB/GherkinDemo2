@@ -7,7 +7,7 @@ public class StepDefinitions {
     @Given("^the Google Chrome browser is open$")
     public void theGoogleChromeBrowserIsOpen() {
         System.out.println("The browser is open!");
-        assertTrue(true);
+        assertTrue(false);
     }
 
     @When("^opening the live chat$")
