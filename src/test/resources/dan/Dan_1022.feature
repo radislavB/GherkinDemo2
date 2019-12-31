@@ -1,5 +1,3 @@
-#Auto generated Octane revision tag
-@TID1021REV0
 Feature: feature name
 
 	Scenario: my s
