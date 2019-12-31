@@ -1,5 +1,3 @@
-#Auto generated Octane revision tag
-@TID1003REV0.2.0
 Feature:Test From Octane
 
 	Scenario Outline: cool scenario outline
