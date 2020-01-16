@@ -1,4 +1,4 @@
-Feature: feature name
+Feature: feature name1
 
 	Scenario: my s
 		Given g
