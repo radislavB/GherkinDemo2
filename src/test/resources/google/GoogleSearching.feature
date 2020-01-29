@@ -1,4 +1,4 @@
-Feature: Google Searching
+Feature: Google Searching changed by Elisheva
   As a web surfer, I want to search Google, so that I can learn new things.
 
    # Author: Andy
