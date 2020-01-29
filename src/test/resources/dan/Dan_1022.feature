@@ -4,4 +4,3 @@ Feature: feature name 1022
 		Given g
 		When w
 		Then t
-		Then t
