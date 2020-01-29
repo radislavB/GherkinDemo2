@@ -8,6 +8,7 @@ public class StepDefinitions {
     public void theGoogleChromeBrowserIsOpen() {
         System.out.println("The browser is open!");
        // assertTrue(false);
+         System.out.println("The test worked!");
     }
 
     @When("^opening the live chat$")
@@ -18,11 +19,14 @@ public class StepDefinitions {
     @Then("^the chat works$")
     public void theChatWorks() {
         System.out.println("The test worked!");
+        int x=5;
+         System.out.println("The test worked!");
     }
 
     @Given("a web browser is on the Google page")
     public void aWebBrowserIsOnTheGooglePage() throws Exception {
      //   throw new Exception("exception in given");
+         System.out.println("The test worked!");
     }
 
     @When("the search phrase {string} is entered")
@@ -33,6 +37,8 @@ public class StepDefinitions {
     @Then("results for {string} are shown")
     public void resultsForAreShown(String arg0) throws Exception {
      //   throw new Exception("exception!");
+         System.out.println("The test worked!");
+        
     }
 
     @And("the related results include {string}")
