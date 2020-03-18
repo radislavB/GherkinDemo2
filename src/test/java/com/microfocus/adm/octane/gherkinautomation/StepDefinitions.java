@@ -142,7 +142,7 @@ public class StepDefinitions {
 
     @Then("t")
     public void t() {
-        assertTrue(false);
+        assertTrue("bubu message", false);
     }
 
     @Then("t2")
