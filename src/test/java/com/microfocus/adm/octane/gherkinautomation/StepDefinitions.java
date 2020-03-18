@@ -144,4 +144,9 @@ public class StepDefinitions {
     public void t() {
         assertTrue(true);
     }
+
+    @Then("t2")
+    public void t2() {
+        assertEquals(5,6);
+    }
 }

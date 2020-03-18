@@ -4,4 +4,4 @@ Feature: feature name 1024
 		Given g
 		When w
 		Then t
-		Then t
+		Then t2
