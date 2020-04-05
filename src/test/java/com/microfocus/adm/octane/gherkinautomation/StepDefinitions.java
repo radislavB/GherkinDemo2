@@ -142,11 +142,11 @@ public class StepDefinitions {
 
     @Then("t")
     public void t() {
-        assertTrue("bubu message", false);
+        assertTrue("bubu message", true);
     }
 
     @Then("t2")
     public void t2() {
-        assertEquals(5,6);
+        assertEquals(6,6);
     }
 }
