@@ -1,6 +1,6 @@
 pipeline {
 
-    agent { label 'slave1' }
+    agent any
     stages {
 
         stage('unit-test') {
@@ -13,8 +13,7 @@ pipeline {
     post {
             always {
                 echo 'I will always say Hello again!'
-                junit '**/target/surefire-reports/TEST-*.xml'
-				publishGherkinResults '**/*OctaneGherkinResults.xml'
+		publishGherkinResults '**/*OctaneGherkinResults.xml'
             }
         }
 
