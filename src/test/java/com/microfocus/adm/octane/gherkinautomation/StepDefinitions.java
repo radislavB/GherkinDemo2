@@ -16,6 +16,12 @@ public class StepDefinitions {
         System.out.println("opening live chat!");
     }
 
+    @Given("run feature {string} is done")
+    public void runFeature(String str) {
+        System.out.println("runFeature - " + str);
+    }
+
+
     @Then("^the chat works$")
     public void theChatWorks() {
         System.out.println("The test worked!");
