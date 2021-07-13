@@ -11,6 +11,10 @@ Feature: feature name 1025
 		Given run feature "1025-s2" is done
 		When w
 		Then t2
+	Scenario: my s2-2
+		Given run feature "1025-s2" is done
+		When w
+		Then t2
 
 	Scenario: my s3
 		Given run feature "1025-s3" is done
