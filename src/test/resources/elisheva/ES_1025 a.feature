@@ -23,7 +23,7 @@ Feature: feature name 1025
 		Then t2
 
 
-	Scenario: my s5
+	Scenario: my s5'aa'
 		Given run feature "1025-s5" is done
 		When w
 		Then t2
