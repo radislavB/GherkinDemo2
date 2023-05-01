@@ -27,3 +27,8 @@ Feature: feature name 1024 #1024  bbb
 		Given run feature "1024-s5" is done
 		When w
 		Then t2
+		
+	Scenario: my s6
+		Given run feature "1024-s6" is done
+		When w
+		Then t2
